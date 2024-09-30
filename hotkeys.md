@@ -17,6 +17,11 @@
     h = left one character
     l = right one character
 
+    y = yank
+    
+    cw = Change word
+    ciw = Change inner word
+
     w|W = jumps forward to start of word (caps to ignore punc)
     e|E = jumps to end of word (caps to ignore punc)
     b|B = jumps backward to the start of previous word (caps to ignore punc)
@@ -29,6 +34,17 @@
 
     gg = top of file
     G = end of file
+
+## Harpoon Commands
+
+    ctrl+e = Open menu
+    
+    <Spc>a = Mark
+
+    ctrl+h = Jump to file (1)
+    ctrl+t = Jump to file (2)
+    ctrl+n = Jump to file (3)
+    ctrl+s = Jump to file (4)
 
 # Visual Mode Commands
 
@@ -43,18 +59,18 @@
     <C-p> = select prev item
     <C-n> = select next item
     <C-y> = confirm
-    <C-Space> = complete
+    <C-Spc> = complete
 
 
     gd = Go to Declaration
     K = Hover (?)
-    <leader>vws = Workspace symbol (?)
-    <leader>vd = Open float (?)
+    <Spc>vws = Workspace symbol (?)
+    <Spc>vd = Open float (?)
     [d = Go to next
     ]d = go to prev
-    <leader>vca = code action (?)
-    <leader>vrr = references (?)
-    <leader>vrn = rename
+    <Spc>vca = code action (?)
+    <Spc>vrr = references (?)
+    <Spc>vrn = rename
     <C-h> = signature help (?) (while in Insert mode)
 
 
